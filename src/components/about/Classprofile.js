@@ -17,7 +17,7 @@ export class Classprofile extends Component {
   }
 
   async componentDidMount() {
-    const data = await fetch("https://api.github.com/users/SHUBHARSHY");
+    const data = await fetch("https://github.com/SHUBHARSHY/BakeHut-App.github.io");
     const json = await data.json();
     console.log(json);
     this.setState({
