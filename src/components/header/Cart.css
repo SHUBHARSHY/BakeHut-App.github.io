@@ -1,0 +1,120 @@
+.cart-container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cart-text {
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #535665;
+}
+
+.cart-des {
+  margin-top: 8px;
+  color: #7e808c;
+}
+
+.btn-home {
+  margin-top: 30px;
+  padding: 11px 20px;
+  text-transform: uppercase;
+  background-color: #808927;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  font-size: 15px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform .8s cubic-bezier(.2,1,.2,1);
+  width: 32%;
+  margin-left: 32%;
+}
+  .empty-cart {
+    margin: 20px 0PX;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .empty-cart p {
+    margin-bottom: 0;
+  }
+
+  .order-container{
+    grid-template-columns: repeat(4, 1fr) 0.3fr;
+    text-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    display: grid;
+  }
+
+  .My-order{
+    border: 1px solid #686b78;
+    width: 200px;
+  }
+
+  .Bill-deatils{
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #282c3f;
+  }
+
+  .subtotal{
+    font-size: 13px;
+    color: #686b78;
+  }
+  .line{
+    border-bottom: 1px solid #e9e9eb;
+    margin: 17px 0 15px;
+}
+  .totalorder{
+    font-weight: 600;
+    color: #282c3f;
+  }
+  .Food-container{
+    font-size: 13px;
+    color: #686b78;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .placeorder{
+    background-color: #60b246;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 100px;
+    padding: 5px 15px;
+    width: fit-content;
+    display: inline-flex;
+      margin-top: 10px;
+  }
+   .placeorder:hover{
+     
+    border: 1px solid #aabcca;
+    box-shadow: 1px 2px 4px 0 rgb(0 0 0 / 15%);
+   }
+
+   @media only screen and (max-width: 761px){
+
+    .btn-home{
+      width: 56%;
+      margin-left: 16%;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      font-size: 12px;
+    }
+    .placeorder{
+      display: inline-flex;
+      margin: 10px 0 0 0 ;
+    }
+   }
